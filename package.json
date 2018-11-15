@@ -1,42 +1,30 @@
 {
-  "name": "movehub-async",
-  "version": "0.5.0",
-  "description": "Asynchronous methods for the Lego Boost Move Hub package",
-  "main": "index.js",
+  "name": "lego-boost-nodejs",
+  "version": "1.0.0",
+  "description": "Experiments with the LEGO Boost in Node.js via bluetooth",
+  "main": "lego-boost.js",
   "scripts": {
-    "test": "npm run eslint",
-    "eslint": "eslint index.js movehub-async.js tester.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "sed -i -e \"s/('noble')/('noble-mac')/g\" ./node_modules/movehub/movehub.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttu/node-movehub-async.git"
+    "url": "git+https://github.com/webondevices/lego-boost-nodejs.git"
   },
   "keywords": [
-    "Lego",
-    "Boost",
-    "Move",
-    "Hub",
-    "BLE",
-    "Bluetooth",
-    "Robotics",
-    "Async"
+    "lego",
+    "boost",
+    "nodejs",
+    "bluetooth"
   ],
-  "author": "Tomi Tuhkanen",
-  "license": "MIT",
+  "author": "Mate Marschalko",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ttu/node-movehub-async/issues"
+    "url": "https://github.com/webondevices/lego-boost-nodejs/issues"
   },
-  "homepage": "https://github.com/ttu/node-movehub-async#readme",
+  "homepage": "https://github.com/webondevices/lego-boost-nodejs#readme",
   "dependencies": {
-    "movehub": "^0.4.1",
+    "movehub-async": "^0.5.0",
     "noble-mac": "git+https://github.com/Timeular/noble-mac.git"
-  },
-  "devDependencies": {
-    "eslint": "^5.4.0"
-  },
-  "engines": {
-    "node": ">=7.6.0"
-  },
-  "engineStrict": true
+  }
 }
