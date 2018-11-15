@@ -1,0 +1,52 @@
+{
+  "name": "movehub",
+  "version": "0.4.1",
+  "description": "Interface to the Lego Boost Move Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "camo-purge; gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbyquaker/node-movehub.git"
+  },
+  "keywords": [
+    "Lego",
+    "Boost",
+    "Move",
+    "Hub",
+    "BLE",
+    "Bluetooth",
+    "Robotics"
+  ],
+  "author": "Sebastian Raff <hobbyquaker@gmail.com>",
+  "contributors": [
+    "Tomi Tuhkanen https://github.com/ttu"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/node-movehub/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/node-movehub#readme",
+  "dependencies": {
+    "noble": "^1.8.1"
+  },
+  "devDependencies": {
+    "camo-purge": "latest",
+    "gulp": "latest",
+    "gulp-xo": "latest",
+    "jsdoc-to-markdown": "latest",
+    "xo": "latest"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true,
+  "xo": {
+    "space": 4,
+    "ignore": [
+      "test.js",
+      "Gulpfile.js"
+    ]
+  }
+}
